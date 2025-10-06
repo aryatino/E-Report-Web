@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IDN E-report</title>
+    <link
+      rel="shortcut icon"
+      href="/assets/images/logo idn.png"
+      type="image/x-icon"
+    />
+
+    <!-- CSS Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- animate css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- aos cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- my css -->
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg bg-primary-subtle py-4 animate__animated animate__bounce animate__fadeInDown"
+    >
+      <div class="container">
+        <a class="navbar-brand d-flex align-items gap-2" href="#">
+          <img
+            src="/assets/images/logo idn.png"
+            alt="Logo"
+            width="30"
+            class="d-inline-block align-text-top rounded"
+          />
+          <span class="fw-bold text-primary">E-Report</span>
+        </a>
+
+        <button
+          class="navbar-toggler shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-4 text-center pt-4 pt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="index.html#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="index.html#about"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="index.html#service"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="index.html#recent"
+                >Recents</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="index.html#faq">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- single report -->
+    <section id="report">
+      <div class="container my-5">
+        <div class="row g-4">
+          <!-- main content -->
+          <div class="col-lg-8">
+            <nav class="mt-2 mb-5 d-lg-none" aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item">
+                  <a href="reports.html">All Reports</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Keran Masjid Rusak
+                </li>
+              </ol>
+            </nav>
+            
+            <h1 class="fw-bold mb-2">Laporan Fasilitas: Keran Masjid Rusak</h1>
+            <p class="text-secondary">
+              By <span class="text-primary fw-semibold">Fatih Al-Akram</span> |
+              2 jam yang lalu
+            </p>
+            <div>
+              <img
+                class="img-fluid rounded-3 shadow-sm"
+                src="assets/images/keranrusak.jpg"
+                alt=""
+              />
+            </div>
+            <p class="lh-lg mt-4">
+              Seoarang siswa yang berasal dari kelas 10 RPL melaporkan adanya
+              kerusakan pada salah satu fasilitas masjid yaitu keran, laporan
+              ini kami kirimkan agar sekolah dapat memperbaiki fasilitas
+              tersebut secepatnya.
+            </p>
+            <blockquote
+              class="text-secondary border-start border-primary border-3 p-3 fst-italic"
+            >
+              Ketika selesai apel pagi saya bergegas pergi ke masjid untuk
+              melaksanakan sholat dhuha, ketika saya ingin berwudhu di tempat
+              wudhu saya melihat ada sekitar 5 keran masjid yang rusak. Tolong
+              untuk pihak sekolah agar bisa secepatnya memperbaiki keran keran
+              yang rusak agar saat waktu sholat datang tidak ada penumpukan
+              antrian yang panjang.
+            </blockquote>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia
+              necessitatibus alias ut quibusdam aspernatur reiciendis esse, non
+              quam itaque consequuntur?
+            </p>
+
+            <hr />
+            <h5 class="fw-bold mb-3">Komentar</h5>
+            <form action="">
+              <div class="form-group mb-4">
+                <textarea
+                  class="form-control shadow-sm"
+                  name=""
+                  id=""
+                  rows="3"
+                  placeholder="Tulis Komentar Anda..."
+                ></textarea>
+              </div>
+              <button class="btn btn-primary px-4">
+                <i class="fa-solid fa-paper-plane"></i>
+                Kirim
+              </button>
+            </form>
+          </div>
+
+          <!-- aside -->
+          <div class="col-lg-4">
+            <nav class="mt-2 mb-5" aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item">
+                  <a href="reports.html">All Reports</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Keran Masjid Rusak
+                </li>
+              </ol>
+            </nav>
+            <div class="card shadow-sm mb-4">
+              <div class="card-header fw-bold">Recent Report</div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <i class="fa-solid fa-chevron-right text-primary me-3"></i>
+                  Laporan Wifi Trouble
+                </li>
+                <li class="list-group-item">
+                  <i class="fa-solid fa-chevron-right text-primary me-3"></i>
+                  Laporan Santri Bermasalah
+                </li>
+                <li class="list-group-item">
+                  <i class="fa-solid fa-chevron-right text-primary me-3"></i>
+                  Laporan Masalah Listrik
+                </li>
+              </ul>
+            </div>
+            <div class="card shadow-sm">
+              <div class="card-header fw-bold">Kategori</div>
+              <div class="card-body">
+                <a
+                  class="badge text-bg-primary text-decoration-none p-2"
+                  href=""
+                  >Report</a
+                >
+                <a
+                  class="badge text-bg-success text-decoration-none p-2"
+                  href=""
+                  >Fasilitas</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- single report end -->
+
+    <!-- Footer -->
+    <footer class="bg-primary py-5">
+      <div class="container">
+        <div class="row justify-content-between row-gap-4">
+          <div class="col-md-4">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <img
+                src="/assets/images/idn.png"
+                alt="Logo"
+                width="30"
+                class="d-inline-block align-text-top rounded"
+              />
+              <h2 class="fw-bold text-white m-0">E-Report</h2>
+            </div>
+            <p class="text-white lh-lg opacity-75 m-0">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui
+              autem dolores, earum quos natus hic enim vel ipsa eligendi magni?
+            </p>
+          </div>
+          <div class="col-md-2 d-flex flex-column text-white gap-2">
+            <h4 class="fw-bold">Menu</h4>
+            <a
+              href="index.html#hero
+                 "
+              class="footer-link text-decoration-none text-white"
+              >Home</a
+            >
+            <a
+              href="index.html#about"
+              class="footer-link text-decoration-none text-white"
+              >About Us</a
+            >
+            <a
+              href="index.html#service"
+              class="footer-link text-decoration-none text-white"
+              >Services</a
+            >
+            <a
+              href="index.html#recent"
+              class="footer-link text-decoration-none text-white"
+              >Recents</a
+            >
+            <a
+              href="index.html#faq"
+              class="footer-link text-decoration-none text-white"
+              >FAQ</a
+            >
+          </div>
+          <div class="col-md-4 d-flex flex-column text-white gap-2">
+            <h4 class="fw-bold">Contact Us</h4>
+            <p class="d-flex align-items-center gap-2 opacity-75">
+              <i class="fa-solid fa-envelope"></i>
+              aryatino345@gmail.com
+            </p>
+            <p class="d-flex align-items-center gap-2 opacity-75">
+              <i class="fa-solid fa-phone"></i>
+              +62 123-456-789
+            </p>
+            <p class="d-flex align-items-center gap-2 opacity-75">
+              <i class="fa-solid fa-location-dot"></i>
+              Jalan Raya Jl. KH. Abdul Hamid No.02, RT.06
+            </p>
+          </div>
+        </div>
+        <div class="copyright text-white text-center">
+          <p>
+            &copy; Copyright by <span class="fw-bold"> RPL Class</span> 2025,
+            All Right Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- JavaScript Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
