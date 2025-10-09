@@ -72,13 +72,19 @@
               <a class="nav-link text-primary" href="index.html#hero">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-primary" href="index.html#about">About Us</a>
+              <a class="nav-link text-primary" href="index.html#about"
+                >About Us</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-primary" href="index.html#service">Services</a>
+              <a class="nav-link text-primary" href="index.html#service"
+                >Services</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-primary" href="index.html#recent">Recents</a>
+              <a class="nav-link text-primary" href="index.html#recent"
+                >Recents</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link text-primary" href="index.html#faq">FAQ</a>
@@ -91,24 +97,34 @@
 
     <!-- all report -->
     <section id="reports">
-      <div class="container text-center">
-        <div>
-          <h1
-            class="fw-bold text-primary-emphasis mb-5"
-            data-aos="fade-up"
-            data-aos-duration="500"
-          >
-            All Report
-          </h1>
-          <p
-            class="lh-lg text-secondary"
-            data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-delay="300"
-          >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            totam quidem quas possimus eius ipsa ullam at dicta ea repellat?
-          </p>
+      <div class="container">
+        <!-- judul -->
+        <div
+          class="d-flex justify-content-center justify-content-md-between align-items-center flex-wrap mb-5"
+        >
+          <div class="col-md-8 text-center text-md-start">
+            <h1
+              class="fw-bold text-primary-emphasis"
+              data-aos="fade-up"
+              data-aos-duration="500"
+            >
+              All Report
+            </h1>
+            <p
+              class="lh-lg text-secondary"
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="300"
+            >
+           Selamat datang di bagian rincian laporan sekolah IDN Boarding School. Di sini, Anda dapat melihat laporan-laporan yang telah dikumpulkan oleh para santri maupun staf sekolah.
+            </p>
+          </div>
+          <div>
+            <button class="btn btn-primary px-3" data-bs-toggle="modal" data-bs-target="#addModal">
+              <i class="fa-solid fa-plus me-3"></i>
+              Tambah Laporan
+            </button>
+          </div>
         </div>
         <!-- filter -->
         <div class="row g-3 mb-5">
@@ -150,7 +166,7 @@
                 class="position-absolute px-3 py-2"
                 style="background-color: rgba(0, 0, 0, 0.5)"
               >
-                <a class="text-decoration-none text-light">Akademik</a>
+                <a class="text-decoration-none text-light">fasilitas</a>
               </div>
               <div style="max-height: 300px; overflow: hidden">
                 <img
@@ -160,17 +176,47 @@
                 />
               </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Kelas Sangat Panas</h5>
                 <p>
                   <small
                     >By
-                    <a class="text-decoration-none" href="">Ammar Ayyasy</a> 1
+                    <a class="text-decoration-none" href="">Muhammad Rafsanjani</a> 3
                     Days Ago</small
                   >
                 </p>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card’s content.
+                  Kelas di IDN sangat panas, terutama ketika di siang hari. Udahlah panas, kipas juga cuma ada 2 di kelas, itupun satunya berisik sekali. Sangat mengganggu kegiatan belajar mengajar, saya ingin memberi saran kepada pihak IDN agar sekiranya menambah jumlah kipas yang ada di kelas jika menambah ac tidak memungkinkan.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div
+                class="position-absolute px-3 py-2"
+                style="background-color: rgba(0, 0, 0, 0.5)"
+              >
+                <a class="text-decoration-none text-light">Anonymous</a>
+              </div>
+              <div style="max-height: 300px; overflow: hidden">
+                <img
+                  src="/assets/images/anonymous.jpg"
+                  class="w-100 object-cover object-center"
+                  alt="Foto Report"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Merokok</h5>
+                <p>
+                  <small
+                    >By
+                    <a class="text-decoration-none" href="">Entitas Bumi</a> 12
+                    Days Ago</small
+                  >
+                </p>
+                <p class="card-text">
+                  saya melihat ada beberapa orang santri yang merokok di toilet pada malam hari pukul 23.40 malam hari. Saya menjadikan laporan saya ini berjenis anonymous karena saya takut jika saya memberi identitas saya maka saya akan menjadi sasaran kekerasan.
                 </p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
@@ -186,55 +232,22 @@
               </div>
               <div style="max-height: 300px; overflow: hidden">
                 <img
-                  src="/assets/images/faraz.jpg"
-                  class="w-100 object-cover object-center"
-                  alt="Foto Report"
-                />
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p>
-                  <small
-                    >By
-                    <a class="text-decoration-none" href="">Ammar Ayyasy</a> 1
-                    Days Ago</small
-                  >
-                </p>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card’s content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-              <div
-                class="position-absolute px-3 py-2"
-                style="background-color: rgba(0, 0, 0, 0.5)"
-              >
-                <a class="text-decoration-none text-light">Akademik</a>
-              </div>
-              <div style="max-height: 300px; overflow: hidden">
-                <img
                   src="assets/images/foto faheem.jpg"
                   class="w-100 object-cover object-center"
                   alt="Foto Report"
                 />
               </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Air Sering Mati</h5>
                 <p>
                   <small
                     >By
-                    <a class="text-decoration-none" href="">Ammar Ayyasy</a> 1
+                    <a class="text-decoration-none" href="">Mohamed Dhihibarevant Jiazhen Faheem</a> 4
                     Days Ago</small
                   >
                 </p>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card’s content.
+                  Air di kamar mandi bagian kantin sering sekali mati, tolong bagi pihak IDN agar segera memperbaiki masalah tersebut.
                 </p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
@@ -246,27 +259,26 @@
                 class="position-absolute px-3 py-2"
                 style="background-color: rgba(0, 0, 0, 0.5)"
               >
-                <a class="text-decoration-none text-light">Akademik</a>
+                <a class="text-decoration-none text-light">Anonymous</a>
               </div>
               <div style="max-height: 300px; overflow: hidden">
                 <img
-                  src="/assets/images/Rafsan.jpg"
+                  src="/assets/images/anonymous.jpg"
                   class="w-100 object-cover object-center"
                   alt="Foto Report"
                 />
               </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Kipas Rusak</h5>
                 <p>
                   <small
                     >By
-                    <a class="text-decoration-none" href="">Ammar Ayyasy</a> 1
+                    <a class="text-decoration-none" href="">Entitas Magnetar</a> 1
                     Days Ago</small
                   >
                 </p>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card’s content.
+                  Kipas di asrama Abu Huroiroh rusak, sudah 3 bulan kami mengajukan laporan namun tidak juga ditindak lanjuti hingga saat ini. Mohon pihak IDN agar segera menindak lanjuti perihal masalah ini.
                 </p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
@@ -278,7 +290,7 @@
                 class="position-absolute px-3 py-2"
                 style="background-color: rgba(0, 0, 0, 0.5)"
               >
-                <a class="text-decoration-none text-light">Akademik</a>
+                <a class="text-decoration-none text-light">Fasilitas</a>
               </div>
               <div style="max-height: 300px; overflow: hidden">
                 <img
@@ -288,17 +300,16 @@
                 />
               </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Bau Tidak Sedap Disekitar Asrama</h5>
                 <p>
                   <small
                     >By
-                    <a class="text-decoration-none" href="">Ammar Ayyasy</a> 1
+                    <a class="text-decoration-none" href="">Rizki Surya Pratama</a> 1
                     Days Ago</small
                   >
                 </p>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card’s content.
+                  Saya sering mencium adanya bau tidak sedap semacam bau kotoran makhluk hidup disekitar asrama saya, mohon bagi pihak IDN agar segera menemukan solusi terkait masalah ini.
                 </p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
@@ -310,7 +321,7 @@
                 class="position-absolute px-3 py-2"
                 style="background-color: rgba(0, 0, 0, 0.5)"
               >
-                <a class="text-decoration-none text-light">Akademik</a>
+                <a class="text-decoration-none text-light">Fasilitas</a>
               </div>
               <div style="max-height: 300px; overflow: hidden">
                 <img
@@ -320,17 +331,16 @@
                 />
               </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Pintu Kamar Mandi Rusak</h5>
                 <p>
                   <small
                     >By
-                    <a class="text-decoration-none" href="">Ammar Ayyasy</a> 1
+                    <a class="text-decoration-none" href="">Rezky Azhar Suryaputra</a> 14
                     Days Ago</small
                   >
                 </p>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card’s content.
+                  Pintu kamar mandi saya rusak, mohon bagi pihak IDN agar segera memperbaiki masalah tersebut.
                 </p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
@@ -342,7 +352,7 @@
                 class="position-absolute px-3 py-2"
                 style="background-color: rgba(0, 0, 0, 0.5)"
               >
-                <a class="text-decoration-none text-light">Akademik</a>
+                <a class="text-decoration-none text-light">Fasilitas</a>
               </div>
               <div style="max-height: 300px; overflow: hidden">
                 <img
@@ -352,17 +362,16 @@
                 />
               </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Peralatan UKS Kurang Memadai</h5>
                 <p>
                   <small
                     >By
-                    <a class="text-decoration-none" href="">Ammar Ayyasy</a> 1
+                    <a class="text-decoration-none" href="">Athallazhafran tominuku Kendraya</a> 30
                     Days Ago</small
                   >
                 </p>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card’s content.
+                  Peralatan UKS menurut saya kurang memadai, mohon bagi pihak IDN agar segera melengkapi peralatan UKS yang kurang memadai agar lebih lengkap.
                 </p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
@@ -374,7 +383,7 @@
                 class="position-absolute px-3 py-2"
                 style="background-color: rgba(0, 0, 0, 0.5)"
               >
-                <a class="text-decoration-none text-light">Akademik</a>
+                <a class="text-decoration-none text-light">Fasilitas</a>
               </div>
               <div style="max-height: 300px; overflow: hidden">
                 <img
@@ -384,17 +393,16 @@
                 />
               </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Air Minum Beraroma Tidak Sedap</h5>
                 <p>
                   <small
                     >By
-                    <a class="text-decoration-none" href="">Ammar Ayyasy</a> 1
+                    <a class="text-decoration-none" href="">Aulia Affandi</a> 8
                     Days Ago</small
                   >
                 </p>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card’s content.
+                  Saya sering menciu, bau tidak sedap pada air minum di asarama maupun maupun pada air minum lain yang saya ambil di tempat lain di IDN. Mohon bagi pihak IDN agar segera menemukan solusi terkait masalah ini.
                 </p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
@@ -408,7 +416,9 @@
             <li class="page-item">
               <a class="page-link disabled" href="#">Previous</a>
             </li>
-            <li class="page-item"><a class="page-link active" href="#">1</a></li>
+            <li class="page-item">
+              <a class="page-link active" href="#">1</a>
+            </li>
             <li class="page-item"><a class="page-link" href="#">2</a></li>
             <li class="page-item"><a class="page-link" href="#">3</a></li>
             <li class="page-item"><a class="page-link" href="#">Next</a></li>
@@ -418,6 +428,75 @@
     </section>
 
     <!-- all report end -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="addModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-primary text-white">
+            <h1 class="modal-title fs-5 fw-semibold" id="exampleModalLabel">
+              <i class="fa-solid fa-pen-to-square"></i>
+              Tambah Laporan Baru
+            </h1>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <form action="">
+            <div class="modal-body p-md-5 p-3">
+              <div class="mb-3">
+                <label class="form-label fw-semibold" for="">Judul Laporan</label>
+                <input class="form-control" type="text" placeholder="Masukan Judul Laporan">
+              </div>
+              <div class="mb-3">
+                <label class="form-label fw-semibold" for="">Pilih Kategori:</label>
+                <select class="form-select shadow-sm" type="text" placeholder="Masukan Judul Laporan">
+                  <option value="">Pilih Kategori</option>
+                  <option value="Akademik">Akademik</option>
+                  <option value="Fasilitas">Fasilitas</option>
+                  <option value="Anonymous">Anonymous</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label class="form-label fw-semibold" for="">
+                  Isi Laporan
+                </label>
+                <textarea class="form-control shadow-sm" name="" id="" rows="6" placeholder="Tulis Laporan Anda"></textarea>
+              </div>
+              <div class="mb-3">
+                <label class="form-label fw-semibold" for="">
+                  Upload Gambar:
+                </label>
+                <input class="form-control shadow-sm" type="file" accept="image/*">
+              </div>
+            </div>
+            <div class="modal-footer">
+          </form>
+            <button
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="submit" class="btn btn-primary">
+              <i class="fa-solid fa-pen-to-square"></i>
+              Kirim Laporan
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal end -->
 
     <!-- Footer -->
     <footer class="bg-primary py-5">
@@ -434,8 +513,7 @@
               <h2 class="fw-bold text-white m-0">E-Report</h2>
             </div>
             <p class="text-white lh-lg opacity-75 m-0">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui
-              autem dolores, earum quos natus hic enim vel ipsa eligendi magni?
+              Terima kasih telah berkunjung ke website kami, jika ada pertanyaan, kritik ataupun saran silahkan hubungi kami melalui kontak yang sudah kami sediakan. kami sangat menerima berbagai kritik dan saran baik dari staf maupun santri.
             </p>
           </div>
           <div class="col-md-2 d-flex flex-column text-white gap-2">
@@ -446,7 +524,9 @@
               class="footer-link text-decoration-none text-white"
               >Home</a
             >
-            <a href="index.html#about" class="footer-link text-decoration-none text-white"
+            <a
+              href="index.html#about"
+              class="footer-link text-decoration-none text-white"
               >About Us</a
             >
             <a
@@ -459,7 +539,9 @@
               class="footer-link text-decoration-none text-white"
               >Recents</a
             >
-            <a href="index.html#faq" class="footer-link text-decoration-none text-white"
+            <a
+              href="index.html#faq"
+              class="footer-link text-decoration-none text-white"
               >FAQ</a
             >
           </div>
